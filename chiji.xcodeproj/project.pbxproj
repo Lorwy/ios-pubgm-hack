@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D40C17F520620D9C008D48DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D40C17F420620D9C008D48DA /* Default-568h@2x.png */; };
-		D437D3DC206239FC000AFB1A /* PUBGM.app in Resources */ = {isa = PBXBuildFile; fileRef = D437D3DB206239FC000AFB1A /* PUBGM.app */; };
 		D4DEB7DD206144A90051F5B4 /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4DEB7DC206144A90051F5B4 /* MethodTraceConfig.plist */; };
 		D4DEB7E7206144A90051F5B4 /* libchijiDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4DEB7E6206144A90051F5B4 /* libchijiDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D4DEB7EC206144A90051F5B4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DEB7EB206144A90051F5B4 /* JavaScriptCore.framework */; };
@@ -52,8 +51,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		047A447D20859D0C0044051E /* chiji.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = chiji.ipa; sourceTree = "<group>"; };
 		D40C17F420620D9C008D48DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D437D3DB206239FC000AFB1A /* PUBGM.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = PUBGM.app; path = TargetApp/PUBGM.app; sourceTree = "<group>"; };
 		D4DEB7D5206144A90051F5B4 /* chiji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chiji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DEB7D8206144A90051F5B4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D4DEB7DA206144A90051F5B4 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
@@ -152,7 +151,7 @@
 		D4DEB7DE206144A90051F5B4 /* TargetApp */ = {
 			isa = PBXGroup;
 			children = (
-				D437D3DB206239FC000AFB1A /* PUBGM.app */,
+				047A447D20859D0C0044051E /* chiji.ipa */,
 				D4DEB7DF206144A90051F5B4 /* put ipa or app here */,
 			);
 			name = TargetApp;
@@ -337,7 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4DEB7DD206144A90051F5B4 /* MethodTraceConfig.plist in Resources */,
-				D437D3DC206239FC000AFB1A /* PUBGM.app in Resources */,
 				D40C17F520620D9C008D48DA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
